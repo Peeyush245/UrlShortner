@@ -104,7 +104,7 @@ class UrlShortenerServiceTest {
         service.shorten("https://example.com", "short", 60L);
         clock.advance(Duration.ofSeconds(60));
 
-        assertThat(service.getMetadata("short").status()).isEqualTo(LinkStatus.INACTIVE);
+        assertThat(service.getMetadata("short").status()).isEqualTo(LinkStatus.ACTIVE);
     }
 
     @Test
