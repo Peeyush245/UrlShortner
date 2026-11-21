@@ -41,6 +41,7 @@ A Spring Boot REST API that shortens URLs, with custom aliases, expiry (TTL), de
 Test reports are written to `target/surefire-reports/`.
 
 ## Architecture
+<img width="1040" height="1065" alt="image" src="https://github.com/user-attachments/assets/1cbbff76-4283-42db-8c3e-d67cce28e960" />
 
 
 
